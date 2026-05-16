@@ -12,7 +12,7 @@ namespace ConsoleApp2
 
             static void Main(string[]args) {
 
-
+            // addition
             int a = 10;
             int b = 20;
 
@@ -20,8 +20,18 @@ namespace ConsoleApp2
 
             Console.WriteLine(add);
 
-                
-                
+
+            // substraction 
+            int c= 30;
+            int d = 40;
+
+            int sub  = c  - d;
+
+            Console.WriteLine(sub);
+
+
+
+
         }
     }
 }
