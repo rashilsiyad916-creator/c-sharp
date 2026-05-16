@@ -21,6 +21,7 @@ namespace ConsoleApp2
             Console.WriteLine(add);
 
 
+
             // substraction 
             int c= 30;
             int d = 40;
@@ -28,6 +29,28 @@ namespace ConsoleApp2
             int sub  = c  - d;
 
             Console.WriteLine(sub);
+
+
+
+            // multiplication 
+            int e = 6;
+            int f = 8;
+
+            int mult = e * f;
+
+            Console.WriteLine(mult);
+
+
+
+            //division 
+            int g = 100;
+            int h = 50;
+
+            int div = g / h;
+
+            Console.WriteLine(div);
+
+
 
 
 
