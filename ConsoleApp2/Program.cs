@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    //class Person
-    //{
-    //    public string Name;
+    class Person
+    {
+       //public string Name;
 
-    //    static void Main(string[] args)
-    //    {
+      // static void Main(string[] args)
+      //{
     //        Person p1 = new Person();
     //        p1.Name = "Rashil";
 
@@ -25,7 +25,7 @@ namespace ConsoleApp2
     //    }
     //}
 
-    class Person {
+    class  {
 
         public string Name;
 
@@ -91,7 +91,7 @@ namespace ConsoleApp2
 
 
 
-        //}
+        }
     }
 }
 
