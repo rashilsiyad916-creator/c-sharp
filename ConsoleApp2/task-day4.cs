@@ -11,68 +11,68 @@ namespace ConsoleApp2
     //parent class
      class Animal 
     {
-        public string name;
-        public int age;
+    //    public string name;
+    //    public int age;
 
-        public void Speak()
-        {
+    //    public void Speak()
+    //    {
 
-            Console.WriteLine("Animal Name" + 1);
-            Console.WriteLine("Animal Age " + 1);
+    //        Console.WriteLine("Animal Name" + 1);
+    //        Console.WriteLine("Animal Age " + 1);
         
-        }
+    //    }
 
 
-    }
+    //}
 
-    //child  class dog
+    ////child  class dog
 
-    class Dog : Animal {
+    //class Dog : Animal {
 
-        public string breed;
-    }
+    //    public string breed;
+    //}
 
-    //child class - cat 
-    class Cat : Animal {
+    ////child class - cat 
+    //class Cat : Animal {
 
-        public void Meow() {
+    //    public void Meow() {
 
-            Console.WriteLine("Meow !");
-        }
+    //        Console.WriteLine("Meow !");
+    //    }
     
-    }
+    //}
 
-    internal class Task_day4 {
+    //internal class Task_day4 {
 
-        static void Main(string[] args) {
+    //    static void Main(string[] args) {
 
-            //Dog object 
+    //        //Dog object 
 
-            Dog dog = new Dog();
+    //        Dog dog = new Dog();
 
-            dog.name = "Buddy";
-            dog.age = 3;
-            dog.breed = "labrador";
-
-
-            dog.Speak();
-
-            Console.WriteLine("Breed :" + dog.breed);
-            Console.WriteLine();
+    //        dog.name = "Buddy";
+    //        dog.age = 3;
+    //        dog.breed = "labrador";
 
 
-            //Cat object 
+    //        dog.Speak();
 
-            Cat cat = new Cat();
-
-            cat.name = "kitty";
-            cat.age = 2;
+    //        Console.WriteLine("Breed :" + dog.breed);
+    //        Console.WriteLine();
 
 
-            cat.Speak();
-            cat.Meow();
+    //        //Cat object 
+
+    //        Cat cat = new Cat();
+
+    //        cat.name = "kitty";
+    //        cat.age = 2;
+
+
+    //        cat.Speak();
+    //        cat.Meow();
         
-        }
+    //    }
     
     }
 }

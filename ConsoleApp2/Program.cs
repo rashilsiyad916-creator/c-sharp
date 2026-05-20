@@ -25,9 +25,9 @@ namespace ConsoleApp2
     //    }
     //}
 
-    class  {
+    //class  {
 
-        public string Name;
+    //    public string Name;
 
 
         //static void Main(string[] args) {
@@ -91,7 +91,7 @@ namespace ConsoleApp2
 
 
 
-        }
+        //}
     }
 }
 
